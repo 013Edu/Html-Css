@@ -1,0 +1,29 @@
+body{
+
+    font-family: 'Genos', sans-serif;
+}
+
+h2{
+
+    text-align:center;
+    background-color: rgb(207, 110, 92);
+}
+
+#principal{
+
+    text-align: center;
+}
+
+.sub-principal{
+
+    font-family: 'Genos', sans-serif;
+   text-align: center;
+   
+   
+}
+
+.topico1{
+
+    font-family: 'Chakra Petch', sans-serif;
+
+}

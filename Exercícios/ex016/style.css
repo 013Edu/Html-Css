@@ -1,0 +1,19 @@
+
+body{
+background-color: linen;
+font-family: sans-serif;
+}
+
+h1{
+    color: black;
+    background-color: lightpink;
+}
+
+h2{
+    color: black;
+    background-color: darkred;
+}
+p{
+text-align: justify;
+}
+

@@ -1,0 +1,41 @@
+body{
+    background-color: rgb(188, 155, 209);
+}
+
+#principal{
+    text-align: center;
+}
+
+h1{
+
+    color: rgb(73, 41, 64);
+
+}
+
+h2{
+
+    color: rgb(226, 105, 166);
+}
+
+
+.basico{
+
+    color: rgb(97, 160, 94);
+}
+
+.intermediario{
+
+    color: rgb(148, 160, 94);
+    
+}
+
+.avançado{
+
+    color: rgb(160, 94, 94);
+    
+}
+
+.destaque{
+
+    background-color: rgb(130, 228, 228);
+}

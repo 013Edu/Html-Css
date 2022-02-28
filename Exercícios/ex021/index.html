@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pseud-Classs/Elements</title>
+
+<style>
+
+/*
+Seletores Personalizados
+
+. = class
+# = id
+: = pseud-class
+:: = pseud-elements
+
+
+*/
+
+
+
+body{
+
+font-family: Arial, Helvetica, sans-serif;
+background-color: darkgrey;
+
+}
+
+a{
+
+color: red;
+text-decoration: none;
+font-weight: bold;
+}
+
+
+a:visited{
+
+color: lightpink;
+
+}
+
+a:hover{
+
+color: darkred;
+text-decoration: underline;
+}
+
+.especial::before{
+
+    content: '⇒';
+}
+
+
+.especial::after{
+
+content: '⇐';
+
+}
+
+
+</style>
+
+</head>
+<body>
+    <h1>Personalizando Links</h1>
+    <ul>
+        <li><a href="https://gustavoguanabara.github.io" class="especial">Repositorio Github</a></li>
+        <li><a href="https://youtube.com/cursoemvideo">Canal do Youtube</a></li>
+        <li><a href="https://www.cursoemvideo.com">Site do Curso em Vídeo</a></li>
+    </ul>
+</body>
+</html>

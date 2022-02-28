@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping Tags</title>
+    <style>
+        body{
+            background-color: darkgrey;
+            font-family: Arial, Helvetica, sans-serif;
+            margin: 0px;
+        }
+        header{
+            background-color: white;
+            padding: 10px;
+            margin: 10px;
+        }
+        article{
+            background-color: lightgray;
+            box-shadow: 5px 3px 7px 1px rgba(0, 0, 0, 0.39);
+        }
+        nav{
+            background-color: rgb(129, 129, 129);
+            padding: 3px;
+            box-shadow: 5px 3px 7px 1px rgba(0, 0, 0, 0.39);
+        }
+        nav > a{
+         color: white;
+         text-decoration: none;
+         margin-right: 60px;
+        }
+        nav > a:hover{
+            text-decoration: underline;
+        }
+        main{
+            background-color: white;
+            padding: 10px;
+            margin: 10px;
+            border-radius: 10px 0px;
+            box-shadow: 4px 4px 9px 0px rgba(0, 0, 0, 0.274);
+        }
+        footer{
+            background-color: black;
+            color: white;
+            text-align: center;
+            padding: 1px;
+        }
+        aside > p{
+            background-color: rgb(158, 157, 157);
+        }
+        /*
+        #bola{
+            width: 100px;
+            height: 100px;
+            background-color: white;
+            margin: 10px;
+            border-radius: 50%;
+        }
+        */
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Meu Site</h1>
+        <nav>
+         <a href="#">Home</a>
+         <a href="#">Shop</a>
+         <a href="#">Help</a>
+         <a href="#">Contact</a>
+         <a href="#">Articles</a>
+        </nav>
+    </header>
+    <main>
+     <section id="noticias">
+         <article>
+             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima totam molestias sequi earum quasi harum quia, quibusdam libero id! Autem dolorem distinctio qui, harum accusamus quod magnam voluptates fugit cum.</p>
+             <aside>
+             <p>Criado por James Wells</p>
+             </aside>
+         </article>
+     </section>
+    </main>
+    <footer>
+        Desenvolvido por Eduardo Gonçalves
+    </footer>
+    <div id="bola"></div>
+</body>
+</html>
