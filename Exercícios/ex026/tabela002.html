@@ -10,18 +10,38 @@
         body{
             font-family: Arial, Helvetica, sans-serif;
         }
+        thead > tr > th{
+            position: sticky;
+            top: 0;
+            background-color: rgb(0, 0, 0);
+        }
+        tbody > tr:nth-child(odd){
+            background-color: lightgray;
+
+        }
         table{
             width: 500px;
+            position: relative;
         }
         td,th{
             border: 1px solid black;
             padding: 10px;
         }
         th{
-            background-color: gray;
+            background-color: rgb(0, 0, 0);
+            color: white;
+        }
+        caption{
+            background-color: lightgray;
+            font-size: 1.5em;
+            padding: 5px;
         }
         .num{
             text-align: right;
+        }
+        tfoot{
+            background-color: black;
+            color: white;
         }
     </style>
 </head>
@@ -29,6 +49,7 @@
     <h1>Tabela grande</h1>
     <!--Anatomia de tabelas grandes
     TABLE
+      CAPTION(LEGENDA DA TABELA)
       THEAD
         TR,TD,TH
        TBODY
@@ -39,10 +60,12 @@
     -->
 
     <table>
+        <caption>População Federativa</caption>
         <thead>
+            
         <tr>
-            <th>Estado</th>
-            <th>População</th>
+            <th scope="col">Estado</th>
+            <th scope="col" style="width: 50px;">População</th>
         </tr>
          </thead>
 
@@ -113,10 +136,11 @@
 
          <tfoot>
              <tr>
-                 <th>Total de Habitantes</th>
+                 <th scope="row">Total de Habitantes</th>
                  <td><strong>210.876.76</strong></td>
              </tr>
          </tfoot>
     </table>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum quod adipisci repellat aspernatur saepe exercitationem libero ad. Pariatur fuga ut dolores? Quae laudantium alias, similique veniam error dolor atque. Eum?Lorem ipsum dolor, sit amet consectetur adipisicing elit. Saepe reprehenderit officia commodi facere? Alias explicabo necessitatibus perferendis consequatur. Itaque, cum. Laboriosam corrupti accusantium sapiente impedit repellendus officiis exercitationem earum mollitia?Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique sint iusto sit doloribus alias porro, qui reiciendis vitae officiis, labore obcaecati, aspernatur ullam est ex. Fugit cupiditate veritatis in consequuntur Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni reprehenderit a eum explicabo recusandae eius ipsum molestiae deserunt qui temporibus in tempore excepturi pariatur, consequuntur fuga quaerat. Inventore, et ratione?Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptatibus, error voluptatum quo corporis at quisquam incidunt ea velit soluta, corrupti, consectetur obcaecati autem quasi asperiores nesciunt unde culpa molestias numquam!</p>
 </body>
 </html>
